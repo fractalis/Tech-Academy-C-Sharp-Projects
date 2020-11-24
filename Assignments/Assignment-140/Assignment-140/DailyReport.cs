@@ -60,7 +60,7 @@ namespace Assignment_140
         /// </summary>
         /// <param name="prompt">The prompt to display to the user</param>
         /// <returns>The parse integer that the user entered</returns>
-        public int DisplayPromptAndGetInteger(string prompt)
+        private int DisplayPromptAndGetInteger(string prompt)
         {
             // While an invalid value is entered, we continue this loop
             // Otherwise, we return a valid integer
