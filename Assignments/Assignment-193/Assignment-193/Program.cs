@@ -18,7 +18,11 @@ namespace Assignment_193
 
             Console.ReadLine();
         }
+        
 
+        /// <summary>
+        /// Builds a room description demonstrating the use of StringBuilder
+        /// </summary>
         static void BuildRoomDescription()
         {
             StringBuilder stringBuilder = new StringBuilder();
@@ -31,6 +35,9 @@ namespace Assignment_193
             Console.WriteLine(stringBuilder);
         }
 
+        /// <summary>
+        /// Outputs the uppercase version of a string.
+        /// </summary>
         static void UppercaseString()
         {
             string quote = "It was the best of times, it was the worst of times.";
@@ -38,6 +45,9 @@ namespace Assignment_193
             Console.WriteLine(upperQuote);
         }
 
+        /// <summary>
+        /// Concatenates three strings together and outputs to the console.
+        /// </summary>
         static void ConcatenateStrings()
         {
             string errorCode = "ERR0001";
