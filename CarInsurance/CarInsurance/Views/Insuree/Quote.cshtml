@@ -1,0 +1,18 @@
+﻿@using CarInsurance.Models
+@model Insuree
+
+@{
+    ViewBag.Title = "Quote";
+}
+
+<div class="row">
+    <div class="col-sm-6 col-lg-4 col-md-5 offset-3 my-3">
+        <div class="card shadow">
+            <div class="card-header">Your Quote</div>
+            <div class="card-body">
+                Your monthly quote is: @String.Format("{0:C}", Model.Quote)
+            </div>
+        </div>
+    </div>
+</div>
+
