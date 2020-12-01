@@ -4,6 +4,9 @@ These are some small projects I made using C# and the .NET Framework
 
 ## Projects:
 ---
+  + [Car Insurance](#car-insurance)
+  + [Twenty One](#twenty-one)
+
 
 ### Car Insurance
 
